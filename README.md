@@ -37,7 +37,7 @@ A **mobile-first web app** to convert between **HH:MM** and **decimal hours**, w
 ## Demo
 ![Preview 1](media/screenshot.png)
 
-Try it live: [https://hhmm-webapp.netlify.app/]()
+Try it live: [https://hhmm-webapp.netlify.app/](https://hhmm-webapp.netlify.app/)
 
 ---
 
