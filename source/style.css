@@ -71,3 +71,24 @@ h1 {
 .field input[type="time"]::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.github-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.github-link:hover {
+  background: #22cce0;
+}
