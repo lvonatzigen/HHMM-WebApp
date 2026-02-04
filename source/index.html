@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HH:MM → Decimal Hours</title>
+  <title>Time Converter</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="card">
     <h1>Time Converter</h1>
-    <p class="subtitle">HH:MM → decimal hours</p>
+    <p class="subtitle">HH:MM ↔ decimal hours</p>
 
-    <input
-      id="timeInput"
-      type="time"
-      step="60"
-      inputmode="numeric"
-    />
+    <label class="field">
+      <span>HH:MM</span>
+      <input id="timeInput" type="time" step="60" />
+    </label>
 
-    <div class="result">
+    <label class="field">
       <span>Decimal hours</span>
-      <strong id="output">–</strong>
-    </div>
+      <input
+        id="decimalInput"
+        type="number"
+        step="0.01"
+        inputmode="decimal"
+        placeholder="e.g. 1.75"
+      />
+    </label>
   </main>
 
   <script src="script.js"></script>
